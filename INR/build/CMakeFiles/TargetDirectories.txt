@@ -1,4 +1,0 @@
-/home/alexd/Downloads/Second_term/INR/build/CMakeFiles/GlauberSample.dir
-/home/alexd/Downloads/Second_term/INR/build/CMakeFiles/my_lib.dir
-/home/alexd/Downloads/Second_term/INR/build/CMakeFiles/edit_cache.dir
-/home/alexd/Downloads/Second_term/INR/build/CMakeFiles/rebuild_cache.dir
