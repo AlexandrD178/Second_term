@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/GlauberSample.dir/main.cpp.o -o GlauberSample  libmy_lib.a 
