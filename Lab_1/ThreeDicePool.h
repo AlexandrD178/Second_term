@@ -4,9 +4,9 @@
 
 class ThreeDicePool: public Rollable {
 private:
-    Dice dice1, dice2, dice3;
+    Rollable& dice1; Rollable& dice2; Rollable& dice3;
 
 public:
-    ThreeDicePool(unsigned max, unsigned seed1, unsigned seed_2, unsigned seed_3);
+    ThreeDicePool(Rollable& d1, Rollable& d2, Rollable& d3);
     unsigned roll() override;
 };

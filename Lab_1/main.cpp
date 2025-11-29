@@ -18,7 +18,10 @@ int main() {
     unsigned a = static_cast<double>((1+2+3+4+5+6)/6.0);
     std::cout << "theoretical value: " << a << std::endl;
 
-    ThreeDicePool three_d6(6, 8, 17, 178);
+    Dice d6_1(6, 1);
+    Dice d6_2(6, 7);
+    Dice d6_3(6, 17);
+    ThreeDicePool three_d6(d6_1, d6_2, d6_3);
     std::cout << "One roll: " << three_d6.roll() << std::endl;
     std::cout << "10000 rolls: " << expected_value(three_d6) << std::endl;
     std::cout << " " << std::endl;
